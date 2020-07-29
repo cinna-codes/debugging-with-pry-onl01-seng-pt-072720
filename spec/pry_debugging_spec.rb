@@ -8,4 +8,4 @@ describe "#plus_two" do
 
 end
 
-plus_two
+plus_two(2)
