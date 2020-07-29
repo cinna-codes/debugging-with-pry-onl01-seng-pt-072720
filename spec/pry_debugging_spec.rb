@@ -7,6 +7,3 @@ describe "#plus_two" do
 	end
 
 end
-
-plus_two
-puts "hi"
