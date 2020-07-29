@@ -1,5 +1,5 @@
 require 'pry'
-require './lib/pry_debugging.rb'
+# require './lib/pry_debugging.rb'
 
 describe "#plus_two" do
 	it "takes in a number as an argument and returns the sum of that number and 2" do
@@ -7,4 +7,11 @@ describe "#plus_two" do
 	end
 
 end
+
+def plus_two(num)
+	num+2
+	num
+	binding.pry
+end
+
 plus_two
